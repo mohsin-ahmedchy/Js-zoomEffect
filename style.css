@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    box-shadow: 2px 2px 5px black;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+
+img{
+    transform-origin: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
